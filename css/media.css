@@ -1,0 +1,102 @@
+@media screen and (max-width: 1023px) {
+    .inner {
+        width: 95%;
+    }
+    #header .nav {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 100;
+    }
+    #header .nav .gnb {
+        display: block;
+        padding: 6rem;
+    }
+    #header .nav .gnb li {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+    #header .nav .gnb li a {
+        color: #fff;
+        border-bottom: 1px solid #dcdcdc;
+        display: block;
+        padding-bottom: 1rem;
+        line-height: 3;
+    }
+    #header .nav .closex {
+        display: block;
+    }
+    #header .all-menu {
+        display: block;
+    }
+    .main .con-box .inner {
+        padding: 6rem 0;
+    }
+
+    .main .con1 ul li {
+        /* li:260 / ul:860 * 100 => 30.233 */
+        width: 30.233rem;
+        height: 35rem;
+        padding: 6.5rem 0;
+    }
+    .main .con1 ul li h3 {
+        font-size: 3.5rem;
+    }
+    .main .con1 ul li p {
+        font-size: 2rem;
+    }
+
+    .main .con2 .mediaCenter {
+    }
+    .main .con2 .mediaCenter li:nth-child(1) {
+        width: 100%;
+    }
+    .main .con2 .mediaCenter li:nth-child(2) {
+        display: none;
+    }
+    #footer .inner {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        height: 65rem;
+        justify-content: space-around;
+    }
+    #footer .investment li {
+        width: 2.5srem;
+        align-items: center;
+        margin-right: 2rem;
+    }
+    #footer .investment li:last-child {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main .con-box .inner {
+        padding: 6.4103vw;
+    }
+    .main .con1 ul {
+        flex-wrap: wrap;
+    }
+    .main .con1 ul li {
+        width: 100%;
+        height: 24.0385vw;
+        background-size: cover;
+        margin-bottom: 1.6026vw;
+    }
+    .main .con1 ul li h3 {
+        font-size: 3.2051vw;
+    }
+    .main .con1 ul li p {
+        display: none;
+    }
+    .main .con1 ul li:nth-child(1) {
+        background-position: 0 0;
+    }
+    #footer .investment {
+        width: 90%;
+    }
+}
